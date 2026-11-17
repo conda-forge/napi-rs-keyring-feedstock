@@ -15,7 +15,7 @@ source:
     - system-dbus.patch
 
 build:
-  number: 0
+  number: 1
   script:
     - cargo generate-lockfile
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
